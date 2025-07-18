@@ -18,7 +18,7 @@ from langchain_community.vectorstores import Chroma
 
 KAP_DIR = "/home/ali/kap_downloads"
 DB_DIR = "/home/ali/rag_db_r1"
-CHUNK_SIZE = 300
+CHUNK_SIZE = 30000
 CHUNK_OVERLAP = 50
 OLLAMA_MODEL = "all-minilm"
 OLLAMA_ENDPOINT = "http://localhost:11434"

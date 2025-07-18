@@ -29,7 +29,8 @@ def generate_keywords_and_prompt(user_question: str) -> Tuple[str, List[str]]:
     3. Return as JSON format: {{"keywords": []}}
     4. Atleast return 1 keyword
     5. Return only keywords that are relevant to the summary i am about to send you, if there are no proper keywords from the user question, select relevant ones from the summary
-    6. Give keywords in the language asked
+    6. Give keywords that are necessery and might change the context
+    7. Give keywords in the asked language
 
     User Question: {user_question}"""
     #for smaller db's and speciliazed cases u can create a summary file for the docs and feed the the prompt
